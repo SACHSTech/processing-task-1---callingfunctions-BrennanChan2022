@@ -1,7 +1,11 @@
 import processing.core.PApplet;
 
+  /**
+  * A program that draws a house with a background.
+  * @author: B. Chan
+  */
+
 public class Sketch extends PApplet {
-	
 	
 
   public void settings() {
