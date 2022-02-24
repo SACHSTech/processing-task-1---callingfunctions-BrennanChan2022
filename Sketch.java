@@ -1,7 +1,7 @@
 import processing.core.PApplet;
 
   /**
-  * A program that draws a house with a background.
+  * A program Sketch.java that draws a house with a background.
   * @author: B. Chan
   */
 
@@ -12,14 +12,14 @@ public class Sketch extends PApplet {
     size(500, 500);
   }
 
-  //Background
+  // background
   public void setup() {
     background(176, 227, 255);
   }
 
   public void draw() {
 	  
-    //Draw Grass + Dirt
+    // draw grass + dirt
     noStroke();
     fill(57, 184, 65);
     rect(0,400,500,50);
@@ -27,7 +27,7 @@ public class Sketch extends PApplet {
     fill(107, 68, 27);
     rect(0,450,500,50);
  
-    // Draw House + Roof
+    // draw house + roof
     stroke(0,0,0);
     strokeWeight(1);
     fill(148, 61, 61);
@@ -37,7 +37,7 @@ public class Sketch extends PApplet {
     rect(310,80,40,60);
     triangle(100, 160, 250, 80, 400, 160);
 
-    // Draw Door and Windows
+    // draw door and windows
     fill(79, 5, 5);
     rect(220,300,60,100);
     fill(110, 0, 0);
@@ -52,7 +52,7 @@ public class Sketch extends PApplet {
     line(250, 180, 250, 230); 
     line(220, 205, 280, 205); 
 
-    //Draw Sun and Clouds
+    // draw sun and clouds
     noStroke();
     fill(255, 251, 33);
     ellipse(40, 40, 60, 60);
